@@ -15,7 +15,7 @@ export default interface IListViewData {
   morada: string;
   empresa: string;
   nomeloja: string;
-  consentimento: string;
+  consentimento: string | any;
   ano: string;
   attachements?:any[],
 }
